@@ -38,6 +38,9 @@ buildNumber.properties
 # CMake
 cmake-build-debug/
 
+# .nondex igonre
+.nondex
+
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
 
