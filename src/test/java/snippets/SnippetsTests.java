@@ -409,7 +409,7 @@ public class SnippetsTests {
                 new Integer[]{1, 2, 4}
         );
 
-        assertThat(Arrays.stream(union).sorted().toArray()).isEqualTo(new Integer[]{1, 2, 3, 4});
+        assertThat(union).containsExactlyInAnyOrder(new Integer[]{1, 2, 3, 4});
     }
 
     @Test
